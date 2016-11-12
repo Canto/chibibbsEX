@@ -88,7 +88,6 @@ class Install extends DPann_Controller {
 		{
 			$this->check();
 		}
-
 	}
 
 	public function check() {
