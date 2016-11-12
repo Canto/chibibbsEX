@@ -90,7 +90,6 @@ class Install extends DPann_Controller {
 		}
 	}
 
-	
 	public function check() {
 
 		$install_model = new Install_Model();
