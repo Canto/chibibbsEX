@@ -89,7 +89,6 @@ class Install extends DPann_Controller {
 			$this->check();
 		}
 
-
 	}
 
 	public function check() {
@@ -109,7 +108,7 @@ class Install extends DPann_Controller {
 			$this->parser->parse('layouts/install/Installed', $data);
 		}
 
-		
+
 		/*
 		if ( $isPossible != true ) {
 			$data['server_config'] = $this->Install_Model->getServerConfig($_POST);
