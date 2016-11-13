@@ -29,7 +29,7 @@ class Install_Model extends DPann_Model {
 	public function isWritableConfig($path = '') {
 
 		if ( empty($path) ) {
-			$path = STORAGE.'config/db.config.sample.php';
+			$path = STORAGE.'config/';
 		}
 		return is_really_writable(dirname($path));
 	}
