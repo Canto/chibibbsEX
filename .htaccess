@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^common/(.*)$ common/$2 [L]
+RewriteRule ^common/(.*)$ _common/$2 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
